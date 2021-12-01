@@ -19,3 +19,15 @@ def knight_move(start, finish):
     return a[finish[0]+1][finish[1]+1]
 
 
+knight_move(args.start, args.finish)
+
+
+def knights_collision(first, second):
+    return (knight_move(first, second)+1)//2
+
+
+knights_collision(args.start, args.finish)
+
+
+print(knight_move(args.start, args.finish))
+print(knights_collision(args.start, args.finish))
