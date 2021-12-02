@@ -23,7 +23,7 @@ knight_move(args.start, args.finish)
 
 
 def knights_collision(first, second):
-    return (knight_move(first, second)+1)//2
+    return -1 if knight_move(start, finish) % 2 > 0 else knight_move(start, finish)//2
 
 
 knights_collision(args.start, args.finish)
