@@ -40,7 +40,7 @@ def collision(start, finish):
     return -1 if move(start, finish) % 2 > 0 else move(start, finish) // 2
 ```
 # Тестирование кода
-Для проверки безошибочной проверки кода было написанно несколько тестов у в отдельном модуле с использованием модуля [pytest](https://pytest.org/en/latest/).
+Для проверки безошибочной проверки кода было написанно несколько тестов у в отдельном модуле с использованием модуля pytest.
 ```
 from package import knight
 import pytest
@@ -72,3 +72,5 @@ def test_collision_good(start, finish, result):
 [Шахматный конь](https://www.chess.com/ru/terms/kon)
 
 [Python для начинающих](https://www.cyberforum.ru/python-beginners/)
+
+[pytest](https://pytest.org/en/latest/)
