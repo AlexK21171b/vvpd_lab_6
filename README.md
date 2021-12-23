@@ -40,7 +40,7 @@ def collision(start, finish):
     return -1 if move(start, finish) % 2 > 0 else move(start, finish) // 2
 ```
 # Тестирование кода
-Для проверки безошибочной проверки кода было написанно несколько тестов у в отдельном модуле с использованием модуля pytest.
+Для проверки безошибочной работоспособности кода было написанно несколько тестов в отдельном модуле с использованием модуля pytest.
 ```python
 from package import knight
 import pytest
